@@ -39,7 +39,7 @@ hr{
     display: flex;
     align-items: center;
 }
-.player img {
+.player img {F
     width: 56px;
     height: 56px;
 } 
@@ -47,4 +47,29 @@ hr{
 .player-name{
     margin-left: 16px;  
     font-size: 18px;
+}
+
+/* Top Blog Start */
+.blog{
+    display: flex;
+}
+
+.blog img {
+    width: 177px;
+    height: 177px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.blog-author a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #562EFF;
 }
